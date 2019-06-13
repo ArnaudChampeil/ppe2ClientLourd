@@ -25,8 +25,8 @@ public class WindowRooms extends JFrame {
         JLabel textPatients = new JLabel("Liste des salles de l'hopital");
         panel.add(textPatients);
 
-        //JButton returnHome = new JButton(new ActionReturnHome(this, "Retour"));
-        JButton returnHome = new JButton("Retour");
+        JButton returnHome = new JButton(new ActionReturnHome2(this, "Retour"));
+        //JButton returnHome = new JButton("Retour");
         panel.add(returnHome);
 
         return panel;

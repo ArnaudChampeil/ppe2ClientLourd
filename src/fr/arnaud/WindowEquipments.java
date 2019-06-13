@@ -25,8 +25,8 @@ public class WindowEquipments extends JFrame {
         JLabel textPatients = new JLabel("Liste des équipements de l'hopital");
         panel.add(textPatients);
 
-        //JButton returnHome = new JButton(new ActionReturnHome(this, "Retour"));
-        JButton returnHome = new JButton("Retour");
+        JButton returnHome = new JButton(new ActionReturnHome3(this, "Retour"));
+        //JButton returnHome = new JButton("Retour");
         panel.add(returnHome);
 
         return panel;
